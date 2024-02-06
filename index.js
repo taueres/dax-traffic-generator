@@ -51,7 +51,7 @@ async function main() {
             Key: { key: { S: key } },
         }).promise());
         //console.log(`Got item key ${key}`);
-        if (batch.length === 20) {
+        if (batch.length === 50) {
             await Promise.all(batch);
             batch = [];
         }
