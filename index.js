@@ -1,4 +1,4 @@
-// until npx ts-node index.ts; do sleep 1; done
+// until node index.js; do sleep 1; done
 const AWS = require('aws-sdk');
 const AmazonDaxClient = require('amazon-dax-client');
 
